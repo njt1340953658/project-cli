@@ -16,13 +16,13 @@ let projectName = program.args[0]
 let next = undefined
 
 if (!projectName) {
+  inquirer.defaultName()
   program.help()
   return false
 }
 
 const list = glob.sync('*')
 let rootName = path.basename(process.cwd())
-
 if (list.length) {
   let length = list.filter(name => {
     const fileName = path.resolve(process.cwd(), path.join('.', name))
