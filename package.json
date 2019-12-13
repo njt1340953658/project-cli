@@ -1,0 +1,23 @@
+{
+  "name": "react-clis",
+  "version": "1.1.1",
+  "description": "脚手架脚本初探",
+  "author": "SunnyRun",
+  "private": false,
+  "bin": {
+    "been": "./bin/been.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
+    "download-git-repo": "^2.0.0",
+    "glob": "^7.1.4",
+    "handlebars": "^4.1.2",
+    "inquirer": "^6.3.1",
+    "latest-version": "^5.1.0",
+    "log-symbols": "^3.0.0",
+    "metalsmith": "^2.3.0",
+    "ora": "^3.4.0"
+  }
+}
